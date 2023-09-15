@@ -31,5 +31,5 @@ powerful & highly secure gd private server emulator
 0. check if update is actually required (backend version can be found on `dashboard`)
 1. if required, delete everything from your webserver **EXCEPT** the `yxzcore/config, data/accounts & data/levels`
 2. upload new version from `src/gd_version/backend/latest` (do not forget to **disable** the "replace existing folders")
-3. check if database update is required (it's on dashboard too)
+3. check if database update is required (its version is on dashboard too)
 4. if required, import `latest.sql` from `src/gd_version/database_sql`
