@@ -1,9 +1,9 @@
 # yxzgdps
 ## better geometry dash private server by yxzhin studio
-## note: still in development
+### note: still in development
 
-powerful & highly secure emulator
-## note: currently only gd 2.1 is supported
+powerful & highly secure gd private server emulator
+### note: currently only gd 2.1 is supported
 
 ## features
 1. three types of verification - captcha, email & discord integration
