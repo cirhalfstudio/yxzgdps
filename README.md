@@ -6,7 +6,7 @@ powerful & highly secure gd private server emulator
 ### note: currently only gd 2.1 is supported
 
 ## features
-1. three types of verification - captcha, email & discord integration
+1. three types of verification - captcha, email verifying & discord integration
 2. auto giving creator points
 3. auto banning exploits
 4. better cron
