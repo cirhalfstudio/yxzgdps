@@ -3,10 +3,11 @@
 
 <?php
 
-// last update: 13:56 08.09.2023.
+// last update: 10:36 27.09.2023.
 
-if(empty($_POST["userName"]) || empty($_POST["password"])
-|| empty($_POST["udid"])) exit("-1");
+if(empty($_POST["userName"]) ||
+empty($_POST["password"]) ||
+empty($_POST["udid"])) exit("-1");
 
 require_once dirname(__FILE__)."/../yxzcore/
 config/security.php";
@@ -23,16 +24,14 @@ lib/db.php";
 require_once dirname(__FILE__)."/../yxzcore/
 lib/accountsLib.php";
 
+$db = connect($host, $port, $dbname, $username, $password);
+$seclib = new SecurityLib($db);
+$acclib = new AccountsLib($seclib);
 $filter = new Filter();
 
 $userName = $filter->clearSpecial($_POST["userName"]);
 $password = $filter->clearSpecial($_POST["password"]);
 $udid = $filter->clearSpecial($_POST["udid"]);
-
-$db = connect($host, $port, $dbname, $username, $password);
-
-$seclib = new SecurityLib($db);
-$acclib = new AccountsLib($db, $seclib);
 
 $accountID = $acclib->baseGet("accountID", "accounts",
 "userName", $userName);
