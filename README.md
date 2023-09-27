@@ -13,9 +13,14 @@ special thanks to @svlemogames
 - latest log: backend - `/vBK-0.1_alpha/27-09-2023/18-10`, database - `/vDB-0.1_alpha/27-09-2023/18-10`
 
 ## contact/devlog
-- my telegram (english/russian/serbian): @yxzhin
-- telegram channel (russian only): @ae_yuzhin
+- my telegram (russian/english/serbian): @yxzhin
+- telegram channel (russian only): t.me/ae_yuzhin
 - discord: currently unavailable
+
+## credits
+- @Cvolton for the original GMDprivateServer: https://github.com/Cvolton/GMDprivateServer
+- @CryptonGamesInc for the `yxzcore/lib/encryptor.php` algorithm: https://github.com/CryptonGamesInc/CryptonEncryption
+- @sathoro for the `yxzcore/lib/XORCipher.php` code: https://github.com/sathoro/php-xor-cipher
 
 ## features
 1. three types of verification - captcha, email verifying & discord integration
