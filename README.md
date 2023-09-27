@@ -1,9 +1,21 @@
-# yxzgdps
-## better geometry dash private server by yxzhin studio
-### note: still in development
+# yxzgdps v1.0
+## better geometry dash private server emulator
+made by @yxzhin-studio-inc with love <3
+special thanks to @svlemogames
 
-powerful & highly secure gd private server emulator
-### note: currently only gd 2.1 is supported
+## note: still in development
+## note: currently only gd 2.1 is supported
+- latest version: backend - vBK-0.1_alpha, database - vDB-0.1_alpha
+- last update: 10:36 27.09.2023.
+
+## changelog/version history
+- see `/changelog`
+- latest log: backend - `/vBK-0.1_alpha/27-09-2023/18-10`, database - `/vDB-0.1_alpha/27-09-2023/18-10`
+
+## contact/devlog
+- my telegram (english/russian/serbian): @yxzhin
+- telegram channel (russian only): @ae_yuzhin
+- discord: currently unavailable
 
 ## features
 1. three types of verification - captcha, email verifying & discord integration
